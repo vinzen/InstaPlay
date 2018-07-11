@@ -3,17 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BF1C3FFE20F6810D0039C900 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1C3FFD20F6810D0039C900 /* AppDelegate.swift */; };
-		BF1C400020F6810D0039C900 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1C3FFF20F6810D0039C900 /* FirstViewController.swift */; };
-		BF1C400220F6810D0039C900 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1C400120F6810D0039C900 /* SecondViewController.swift */; };
 		BF1C400520F6810D0039C900 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF1C400320F6810D0039C900 /* Main.storyboard */; };
 		BF1C400720F6810D0039C900 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF1C400620F6810D0039C900 /* Assets.xcassets */; };
 		BF1C400A20F6810D0039C900 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF1C400820F6810D0039C900 /* LaunchScreen.storyboard */; };
 		BF1C401520F6810E0039C900 /* InstaPlayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1C401420F6810E0039C900 /* InstaPlayTests.swift */; };
+		BF1C402720F6950F0039C900 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1C402220F6950F0039C900 /* AppDelegate.swift */; };
+		BF1C402820F6950F0039C900 /* SelfRecentMediaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1C402420F6950F0039C900 /* SelfRecentMediaViewController.swift */; };
+		BF1C402920F6950F0039C900 /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1C402520F6950F0039C900 /* AuthenticationViewController.swift */; };
+		BF1C402B20F695350039C900 /* ThumbnailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1C402A20F695350039C900 /* ThumbnailCollectionViewCell.swift */; };
+		BF1C402D20F695570039C900 /* Color+rgb.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1C402C20F695570039C900 /* Color+rgb.swift */; };
+		BF1C402F20F695780039C900 /* SelfRecentMediaDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1C402E20F695780039C900 /* SelfRecentMediaDataSource.swift */; };
+		BF1C403120F695A50039C900 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1C403020F695A50039C900 /* TabBarViewController.swift */; };
+		BF1C403320F695C00039C900 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1C403220F695C00039C900 /* TabBar.swift */; };
+		D3A0D14D682F304BC5898529 /* Pods_InstaPlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7497AD68106D299A93F52C00 /* Pods_InstaPlay.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,10 +33,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1CEA89264953421C32CC0CDF /* Pods-InstaPlay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaPlay.release.xcconfig"; path = "Pods/Target Support Files/Pods-InstaPlay/Pods-InstaPlay.release.xcconfig"; sourceTree = "<group>"; };
+		7497AD68106D299A93F52C00 /* Pods_InstaPlay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstaPlay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9803A76F565E7F865ECC9299 /* Pods-InstaPlay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaPlay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InstaPlay/Pods-InstaPlay.debug.xcconfig"; sourceTree = "<group>"; };
 		BF1C3FFA20F6810D0039C900 /* InstaPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF1C3FFD20F6810D0039C900 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BF1C3FFF20F6810D0039C900 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		BF1C400120F6810D0039C900 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		BF1C400420F6810D0039C900 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF1C400620F6810D0039C900 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF1C400920F6810D0039C900 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +44,14 @@
 		BF1C401020F6810E0039C900 /* InstaPlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaPlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF1C401420F6810E0039C900 /* InstaPlayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaPlayTests.swift; sourceTree = "<group>"; };
 		BF1C401620F6810E0039C900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF1C402220F6950F0039C900 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF1C402420F6950F0039C900 /* SelfRecentMediaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelfRecentMediaViewController.swift; sourceTree = "<group>"; };
+		BF1C402520F6950F0039C900 /* AuthenticationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
+		BF1C402A20F695350039C900 /* ThumbnailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailCollectionViewCell.swift; sourceTree = "<group>"; };
+		BF1C402C20F695570039C900 /* Color+rgb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+rgb.swift"; sourceTree = "<group>"; };
+		BF1C402E20F695780039C900 /* SelfRecentMediaDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfRecentMediaDataSource.swift; sourceTree = "<group>"; };
+		BF1C403020F695A50039C900 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		BF1C403220F695C00039C900 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3A0D14D682F304BC5898529 /* Pods_InstaPlay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,12 +73,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0ED942D6FDC8D39546C7D710 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9803A76F565E7F865ECC9299 /* Pods-InstaPlay.debug.xcconfig */,
+				1CEA89264953421C32CC0CDF /* Pods-InstaPlay.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4A2CB7A4C2D3875EED3707E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7497AD68106D299A93F52C00 /* Pods_InstaPlay.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BF1C3FF120F6810D0039C900 = {
 			isa = PBXGroup;
 			children = (
 				BF1C3FFC20F6810D0039C900 /* InstaPlay */,
 				BF1C401320F6810E0039C900 /* InstaPlayTests */,
 				BF1C3FFB20F6810D0039C900 /* Products */,
+				0ED942D6FDC8D39546C7D710 /* Pods */,
+				4A2CB7A4C2D3875EED3707E5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,9 +113,7 @@
 		BF1C3FFC20F6810D0039C900 /* InstaPlay */ = {
 			isa = PBXGroup;
 			children = (
-				BF1C3FFD20F6810D0039C900 /* AppDelegate.swift */,
-				BF1C3FFF20F6810D0039C900 /* FirstViewController.swift */,
-				BF1C400120F6810D0039C900 /* SecondViewController.swift */,
+				BF1C402020F6950F0039C900 /* Code */,
 				BF1C400320F6810D0039C900 /* Main.storyboard */,
 				BF1C400620F6810D0039C900 /* Assets.xcassets */,
 				BF1C400820F6810D0039C900 /* LaunchScreen.storyboard */,
@@ -99,6 +131,45 @@
 			path = InstaPlayTests;
 			sourceTree = "<group>";
 		};
+		BF1C402020F6950F0039C900 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				BF1C402220F6950F0039C900 /* AppDelegate.swift */,
+				BF1C402320F6950F0039C900 /* Controllers */,
+				BF1C402120F6950F0039C900 /* Utilities */,
+				BF1C402620F6950F0039C900 /* Views */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		BF1C402120F6950F0039C900 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				BF1C402C20F695570039C900 /* Color+rgb.swift */,
+				BF1C402E20F695780039C900 /* SelfRecentMediaDataSource.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		BF1C402320F6950F0039C900 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BF1C402520F6950F0039C900 /* AuthenticationViewController.swift */,
+				BF1C402420F6950F0039C900 /* SelfRecentMediaViewController.swift */,
+				BF1C403020F695A50039C900 /* TabBarViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BF1C402620F6950F0039C900 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BF1C402A20F695350039C900 /* ThumbnailCollectionViewCell.swift */,
+				BF1C403220F695C00039C900 /* TabBar.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +177,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF1C401920F6810E0039C900 /* Build configuration list for PBXNativeTarget "InstaPlay" */;
 			buildPhases = (
+				3866814BD1D85968CE2E8838 /* [CP] Check Pods Manifest.lock */,
 				BF1C3FF620F6810D0039C900 /* Sources */,
 				BF1C3FF720F6810D0039C900 /* Frameworks */,
 				BF1C3FF820F6810D0039C900 /* Resources */,
+				101B9D128CEC59CF943B8676 /* [CP] Embed Pods Frameworks */,
+				634106740AD6544EF855F352 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,15 +223,17 @@
 				TargetAttributes = {
 					BF1C3FF920F6810D0039C900 = {
 						CreatedOnToolsVersion = 9.4.1;
+						ProvisioningStyle = Automatic;
 					};
 					BF1C400F20F6810E0039C900 = {
 						CreatedOnToolsVersion = 9.4.1;
+						ProvisioningStyle = Automatic;
 						TestTargetID = BF1C3FF920F6810D0039C900;
 					};
 				};
 			};
 			buildConfigurationList = BF1C3FF520F6810D0039C900 /* Build configuration list for PBXProject "InstaPlay" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -195,14 +271,79 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		101B9D128CEC59CF943B8676 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-InstaPlay/Pods-InstaPlay-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/InstagramKit/InstagramKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/InstagramKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InstaPlay/Pods-InstaPlay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3866814BD1D85968CE2E8838 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InstaPlay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		634106740AD6544EF855F352 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InstaPlay/Pods-InstaPlay-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BF1C3FF620F6810D0039C900 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF1C400220F6810D0039C900 /* SecondViewController.swift in Sources */,
-				BF1C3FFE20F6810D0039C900 /* AppDelegate.swift in Sources */,
-				BF1C400020F6810D0039C900 /* FirstViewController.swift in Sources */,
+				BF1C402F20F695780039C900 /* SelfRecentMediaDataSource.swift in Sources */,
+				BF1C402D20F695570039C900 /* Color+rgb.swift in Sources */,
+				BF1C402920F6950F0039C900 /* AuthenticationViewController.swift in Sources */,
+				BF1C403320F695C00039C900 /* TabBar.swift in Sources */,
+				BF1C402B20F695350039C900 /* ThumbnailCollectionViewCell.swift in Sources */,
+				BF1C403120F695A50039C900 /* TabBarViewController.swift in Sources */,
+				BF1C402820F6950F0039C900 /* SelfRecentMediaViewController.swift in Sources */,
+				BF1C402720F6950F0039C900 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,22 +493,19 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		BF1C401A20F6810E0039C900 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9803A76F565E7F865ECC9299 /* Pods-InstaPlay.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = InstaPlay/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vinzen.InstaPlay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -377,14 +515,12 @@
 		};
 		BF1C401B20F6810E0039C900 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CEA89264953421C32CC0CDF /* Pods-InstaPlay.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = InstaPlay/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vinzen.InstaPlay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -399,11 +535,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = InstaPlayTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vinzen.InstaPlayTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -419,11 +551,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = InstaPlayTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vinzen.InstaPlayTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

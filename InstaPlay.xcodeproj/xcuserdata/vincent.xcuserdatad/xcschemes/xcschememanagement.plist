@@ -7,7 +7,20 @@
 		<key>InstaPlay.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>5</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>BF1C3FF920F6810D0039C900</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BF1C400F20F6810E0039C900</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
